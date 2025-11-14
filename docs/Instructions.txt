@@ -1,0 +1,14 @@
+1. Clone the repository
+git clone https://github.com/<your_username>/aws-cost-anomaly-automation.git  
+cd aws-cost-anomaly-automation
+
+2. Create a virtual environment
+python -m venv venv  
+source venv/bin/activate  # (on Windows: venv\Scripts\activate)
+
+3. Set up environment variables
+cp .env.example .env  
+# (Edit with your actual values)
+
+4. Run the orchestrator
+python src/main.py
